@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="224" measuredWidth="456" measuredHeight="872" dimmed="true">
+    <screen xsi:type="model:Screen" href="phone.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="245" y="103" width="410" height="655" measuredWidth="410" measuredHeight="655">
+    <screen xsi:type="model:Screen" href="assets/Android5/Templates/Home.screen#/"/>
+    <overrides>
+      <widgets ref="7" x="-415" y="-247" width="410" height="655"/>
+      <widgets ref="8" x="-408" y="-240" width="395"/>
+      <widgets ref="8/147" width="395"/>
+      <widgets ref="8/149" x="354"/>
+      <widgets ref="9" x="-392" y="229"/>
+      <widgets ref="11" x="-80" y="229"/>
+      <widgets ref="12" x="-393" y="342"/>
+      <widgets ref="13" x="-301" y="342"/>
+      <widgets ref="23" x="-235" y="336" width="54" height="55"/>
+      <widgets ref="17" y="2"/>
+      <widgets ref="22" x="10" y="0" width="27" height="42"/>
+      <widgets ref="19" width="27" height="27"/>
+      <widgets ref="20" y="14" width="27" height="27"/>
+      <widgets ref="14" x="-167" y="342"/>
+      <widgets ref="15" x="-74" y="342"/>
+      <widgets ref="18" x="-234" y="309"/>
+      <widgets ref="8/150" x="-415" y="367"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="579" y="517" text="projet-ihm" measuredWidth="58" measuredHeight="59" textAlignment="Center" icon="assets/small-rocket-ship-silhouette (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="5" x="579" y="512" width="58" height="57" measuredWidth="58" measuredHeight="57" link="login/login.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
