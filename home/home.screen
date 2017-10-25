@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="160" y="32" measuredWidth="456" measuredHeight="872" dimmed="true">
+    <screen xsi:type="model:Screen" href="../phone.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="181" y="132" measuredWidth="412" measuredHeight="49" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/common/search_bar.screen#/"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

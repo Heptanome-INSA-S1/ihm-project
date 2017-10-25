@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1" x="288" y="192" width="412" height="49" measuredWidth="412" measuredHeight="49"/>
+  <widgets xsi:type="model:SearchField" id="2" x="359" y="202" width="281" text="Search" measuredWidth="281" measuredHeight="31">
+    <font size="17px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="3" x="657" y="201" measuredWidth="32" measuredHeight="32" icon="assets/ic-add (large)"/>
+  <widgets xsi:type="model:Icon" id="5" x="327" y="201" measuredWidth="32" measuredHeight="32" icon="assets/ic-attach-money (large)"/>
+  <widgets xsi:type="model:Label" id="6" x="298" y="202" text="150" measuredWidth="30" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
