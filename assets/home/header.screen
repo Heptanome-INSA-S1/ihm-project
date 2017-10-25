@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1" x="288" y="192" width="414" height="81" measuredWidth="414" measuredHeight="81"/>
+  <widgets xsi:type="model:Icon" id="5" x="408" y="209" measuredWidth="48" measuredHeight="48" icon="wrench (xlarge)"/>
+  <widgets xsi:type="model:Icon" id="7" x="512" y="209" measuredWidth="48" measuredHeight="48" icon="assets/ic-home (xlarge)"/>
+  <widgets xsi:type="model:Icon" id="8" x="610" y="209" measuredWidth="48" measuredHeight="48" icon="usergroup (xlarge)"/>
+  <widgets xsi:type="model:Icon" id="9" x="312" y="209" measuredWidth="48" measuredHeight="48" icon="assets/ic-functions (xlarge)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
