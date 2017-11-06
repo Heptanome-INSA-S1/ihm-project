@@ -2,14 +2,35 @@
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
   <widgets xsi:type="model:Master" id="1" x="160" y="32" measuredWidth="456" measuredHeight="872" dimmed="true">
     <screen xsi:type="model:Screen" href="../phone.screen#/"/>
+    <overrides>
+      <widgets ref="1/7">
+        <attributes key="background" value="#c6c8c9"/>
+      </widgets>
+    </overrides>
   </widgets>
+  <widgets xsi:type="model:Panel" id="21" x="180" y="276" width="413" height="466" measuredWidth="413" measuredHeight="466" background="#f0f0f1" border="none"/>
   <widgets xsi:type="model:Master" id="4" x="179" y="132" measuredWidth="414" measuredHeight="49" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/common/search_bar.screen#/"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#25272a"/>
+        <attributes key="foreground" value="#25272a"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="6">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="2">
+        <attributes key="borderColor" value="#25272a"/>
+      </widgets>
+    </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="6" x="179" y="741" measuredWidth="414" measuredHeight="49" dimmed="true">
-    <screen xsi:type="model:Screen" href="../assets/common/bottom_bar.screen#/"/>
-  </widgets>
-  <widgets xsi:type="model:Master" id="12" x="199" y="285" measuredWidth="374" measuredHeight="169" dimmed="true">
+  <widgets xsi:type="model:Master" id="12" x="180" y="283" measuredWidth="413" measuredHeight="169" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/home/minimalised_request.screen#/"/>
     <overrides>
       <widgetChanges xsi:type="o:Delete" ref="13"/>
@@ -20,17 +41,18 @@
       <widgets ref="3/4" text="Besoin de renseignement"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="13" x="199" y="472" measuredWidth="374" measuredHeight="169" dimmed="true">
+  <widgets xsi:type="model:Master" id="13" x="180" y="459" measuredWidth="413" measuredHeight="169" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/home/minimalised_request.screen#/"/>
     <overrides>
       <widgets ref="2">
         <attributes key="icon" value="wrench (large)"/>
       </widgets>
       <widgets ref="3/4" text="Recherche perceuse"/>
-      <widgets ref="13" x="566" text="5"/>
+      <widgets ref="13" x="627" y="255" text="5"/>
+      <widgets ref="10" x="620" text="3"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="14" x="201" y="663" measuredWidth="374" measuredHeight="80" dimmed="true">
+  <widgets xsi:type="model:Master" id="14" x="180" y="634" measuredWidth="413" measuredHeight="159" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/home/minimalised_request.screen#/"/>
     <overrides>
       <widgetChanges xsi:type="o:Delete" ref="14"/>
@@ -39,12 +61,15 @@
       <widgetChanges xsi:type="o:Delete" ref="11"/>
       <widgetChanges xsi:type="o:Delete" ref="10"/>
       <widgetChanges xsi:type="o:Delete" ref="6"/>
-      <widgets ref="1" height="80"/>
+      <widgets ref="1" height="159"/>
       <widgets ref="5" height="23"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="15" x="179" y="178" measuredWidth="414" measuredHeight="97" dimmed="true">
+  <widgets xsi:type="model:Master" id="19" x="179" y="180" measuredWidth="414" measuredHeight="97" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/home/filter_top.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="6" x="179" y="744" measuredWidth="414" measuredHeight="49" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/common/bottom_bar.screen#/"/>
   </widgets>
   <hRuler/>
   <vRuler/>
