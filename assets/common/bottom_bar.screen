@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Panel" id="1" x="288" y="192" width="414" height="49" measuredWidth="414" measuredHeight="49"/>
-  <widgets xsi:type="model:Icon" id="2" x="312" y="201" measuredWidth="32" measuredHeight="32" icon="assets/ic-dehaze (large)"/>
-  <widgets xsi:type="model:Icon" id="3" x="408" y="201" measuredWidth="32" measuredHeight="32" icon="assets/ic-search (large)"/>
-  <widgets xsi:type="model:Icon" id="4" x="544" y="201" measuredWidth="32" measuredHeight="32" icon="assets/ic-notifications (large)"/>
-  <widgets xsi:type="model:Icon" id="5" x="648" y="201" measuredWidth="32" measuredHeight="32" icon="assets/ic-account-box (large)"/>
-  <widgets xsi:type="model:Callout" id="6" x="560" y="197" text="1" measuredWidth="22" measuredHeight="22" background="#e06666">
-    <font size="9px" bold="true"/>
-  </widgets>
+  <widgets xsi:type="model:Panel" id="1" x="288" y="192" width="414" height="49" measuredWidth="414" measuredHeight="49" background="#25272a" foreground="#25272a" border="none"/>
+  <widgets xsi:type="model:Icon" id="2" x="313" y="201" measuredWidth="32" measuredHeight="32" foreground="#fff" icon="assets/ic-list (large)"/>
+  <widgets xsi:type="model:Icon" id="3" x="400" y="201" measuredWidth="32" measuredHeight="32" foreground="#fff" icon="assets/ic-today (large)"/>
+  <widgets xsi:type="model:Icon" id="4" x="560" y="201" measuredWidth="32" measuredHeight="32" foreground="#fff" icon="assets/ic-room-service (large)"/>
+  <widgets xsi:type="model:Icon" id="5" x="648" y="201" measuredWidth="32" measuredHeight="32" foreground="#fff" icon="assets/ic-account-box (large)"/>
   <widgets xsi:type="model:Hotspot" id="7" x="624" y="192" width="78" height="49" measuredWidth="78" measuredHeight="49" link="../../account/account.screen"/>
+  <widgets xsi:type="model:Icon" id="8" x="575" y="199" measuredWidth="24" measuredHeight="24" foreground="#e74c3c" icon="bullet (medium)"/>
+  <widgets xsi:type="model:Master" id="10" x="459" y="181" measuredWidth="71" measuredHeight="72">
+    <screen xsi:type="model:WidgetGroup" href="../Android5/Controls.screen#Button%20Floating"/>
+    <overrides>
+      <widgets ref="12" width="71" height="72">
+        <attributes key="background" value="#6693b2"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="12" x="459" y="241" width="71" height="13" measuredWidth="71" measuredHeight="13" border="none"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
