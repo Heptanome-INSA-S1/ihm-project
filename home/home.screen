@@ -17,7 +17,7 @@
       <widgets ref="2">
         <attributes key="icon" value="comments (large)"/>
       </widgets>
-      <widgets ref="3/4" text="Besoin de renseignement"/>
+      <widgets ref="3/4" text="Need infomrations"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="13" x="199" y="472" measuredWidth="374" measuredHeight="169" dimmed="true">
@@ -26,7 +26,7 @@
       <widgets ref="2">
         <attributes key="icon" value="wrench (large)"/>
       </widgets>
-      <widgets ref="3/4" text="Recherche perceuse"/>
+      <widgets ref="3/4" text="Look for a drill"/>
       <widgets ref="13" x="566" text="5"/>
     </overrides>
   </widgets>

@@ -17,13 +17,14 @@
   <widgets xsi:type="model:TextField" id="6" x="257" y="312" width="345" text="E-mail" measuredWidth="345" measuredHeight="39">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="7" x="358" y="560" text="Se connecter" measuredWidth="156" measuredHeight="41">
+  <widgets xsi:type="model:Button" id="7" x="387" y="560" text="Sign-in" measuredWidth="94" measuredHeight="41">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="8" x="372" y="712" text="S'enregistrer" measuredWidth="123" measuredHeight="35">
+  <widgets xsi:type="model:Button" id="8" x="391" y="712" text="Sign-out" measuredWidth="92" measuredHeight="35">
     <font size="18px"/>
   </widgets>
-  <widgets xsi:type="model:Hotspot" id="9" x="358" y="560" width="156" height="41" measuredWidth="156" measuredHeight="41" link="../home/home.screen"/>
+  <widgets xsi:type="model:Hotspot" id="9" x="389" y="560" width="94" height="41" measuredWidth="94" measuredHeight="41" link="../home/home.screen"/>
+  <widgets xsi:type="model:Hotspot" id="10" x="392" y="712" width="90" height="35" measuredWidth="90" measuredHeight="35" link="signup.screen"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

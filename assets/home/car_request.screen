@@ -3,26 +3,29 @@
   <widgets xsi:type="model:Master" id="14" x="240" y="160" measuredWidth="374" measuredHeight="209" dimmed="true">
     <screen xsi:type="model:Screen" href="opened_request.screen#/"/>
     <overrides>
-      <widgetChanges xsi:type="o:Insert" newIndex="11">
-        <object xsi:type="model:Icon" id="18" x="567" y="213" icon="assets/ic-more-vert (large)"/>
+      <widgetChanges xsi:type="o:Insert" newIndex="10">
+        <object xsi:type="model:Icon" id="19" x="567" y="213" icon="assets/ic-more-vert (large)"/>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="11">
+      <widgetChanges xsi:type="o:Insert" newIndex="10">
         <object xsi:type="model:Label" id="17" x="536" y="250" width="94" text="Paris" textAlignment="Center">
           <font size="15px"/>
         </object>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="11">
+      <widgetChanges xsi:type="o:Insert" newIndex="10">
         <object xsi:type="model:Label" id="16" x="536" y="179" width="94" text="Lyon" textAlignment="Center">
           <font size="15px"/>
         </object>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="11">
+      <widgetChanges xsi:type="o:Insert" newIndex="10">
         <object xsi:type="model:Panel" id="15" x="536" y="168" width="94" height="121"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="10">
+        <object xsi:type="model:Icon" id="18" x="567" y="213" icon="assets/ic-more-vert (large)"/>
       </widgetChanges>
       <widgets ref="2">
         <attributes key="icon" value="car (large)"/>
       </widgets>
-      <widgets ref="3/4" text="Demande de covoiturage"/>
+      <widgets ref="3/4" text="Ask for carshare"/>
     </overrides>
   </widgets>
   <hRuler/>

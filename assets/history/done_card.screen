@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="11" x="347" y="234" measuredWidth="366" measuredHeight="166" dimmed="true">
+    <screen xsi:type="model:Screen" href="history_template.screen#/"/>
+    <overrides>
+      <widgets ref="7" text="done">
+        <attributes key="background" value="#93c47d"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

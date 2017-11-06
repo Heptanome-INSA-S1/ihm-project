@@ -17,7 +17,7 @@
   </widgets>
   <widgets xsi:type="model:Icon" id="11" x="588" y="300" measuredWidth="24" measuredHeight="24" icon="assets/heart-shape-silhouette (medium)"/>
   <widgets xsi:type="model:Icon" id="12" x="584" y="335" measuredWidth="32" measuredHeight="32" icon="check (large)"/>
-  <widgets xsi:type="model:Label" id="13" x="266" y="336" text="Plus d'info" measuredWidth="75" measuredHeight="29">
+  <widgets xsi:type="model:Label" id="13" x="266" y="336" text="See more" measuredWidth="69" measuredHeight="29">
     <font size="15px"/>
   </widgets>
   <widgets xsi:type="model:Master" id="14" x="268" y="297" measuredWidth="130" measuredHeight="32">

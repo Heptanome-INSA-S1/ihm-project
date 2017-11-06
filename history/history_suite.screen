@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="251" y="16" measuredWidth="456" measuredHeight="872" dimmed="true">
+    <screen xsi:type="model:Screen" href="../phone.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="270" y="118" measuredWidth="414" measuredHeight="49" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/common/search_bar.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="279" y="166" measuredWidth="182" measuredHeight="33">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Typography.screen#Text%20Medium"/>
+    <overrides>
+      <widgets ref="4" text="Monday, 8th October"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="563" y="269" measuredWidth="6" measuredHeight="27">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Typography.screen#Text%20Small"/>
+    <overrides>
+      <widgets ref="6" noText="true"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="5" x="270" y="726" measuredWidth="414" measuredHeight="49" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/common/bottom_bar.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="10" x="279" y="200" measuredWidth="396" measuredHeight="141" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/history/todo_card.screen#/"/>
+    <overrides>
+      <widgets ref="17/7">
+        <attributes key="background" value="#ffe599"/>
+      </widgets>
+      <widgets ref="17/5/6" text="12:35"/>
+      <widgets ref="17/6/6" text="At: INSA Lyon"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="11" x="281" y="580" measuredWidth="396" measuredHeight="141" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/history/todo_card.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="12" x="281" y="360" measuredWidth="395" measuredHeight="141" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/history/request_card.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="13" x="570" y="464" measuredWidth="62" measuredHeight="27">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Controls.screen#Button%20Flat"/>
+    <overrides>
+      <widgets ref="17" text="CLOTURE"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

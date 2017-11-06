@@ -9,13 +9,16 @@
   <panels id="cCjpUc2MlHv9ItN6vx3l7MZFH34=" x="675" y="75">
     <screen href="home/home.screen#/"/>
   </panels>
-  <panels id="76-MTmlD_lCmKFCiHhPtKCaYl6A=" x="975" y="75">
+  <panels id="76-MTmlD_lCmKFCiHhPtKCaYl6A=" x="1030" y="330">
     <screen href="account/account.screen#/"/>
   </panels>
   <panels id="RZSWjmP71rBe_3ySElxopPh8Wts=" x="75" y="375">
     <screen href="service_proposal/filter_menu.screen#/"/>
   </panels>
-  <panels id="WA1kh7lkWdVfD5oZNK6g6pVxWLA=" x="375" y="375">
+  <panels id="WA1kh7lkWdVfD5oZNK6g6pVxWLA=" x="560" y="549">
     <screen href="service_proposal/tool_sharing_proposal.screen#/"/>
+  </panels>
+  <panels id="d8AviOJn-IYeg8nmIVKppTkLNfk=" x="75" y="675">
+    <screen href="home/add_request.screen#/"/>
   </panels>
 </story:Storyboard>
