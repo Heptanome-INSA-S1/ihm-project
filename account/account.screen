@@ -75,7 +75,55 @@
       <widgets ref="10/13" x="-177" y="70"/>
     </overrides>
   </widgets>
+  <widgets xsi:type="model:Master" id="32" x="197" y="306" measuredWidth="411" measuredHeight="321" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/account/profile_form.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="34" x="197" y="187" measuredWidth="410" measuredHeight="100" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/account/profile_overview.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="-96" y="114" width="410"/>
+      <widgets ref="5" x="54" y="130" width="31"/>
+      <widgets ref="6" x="54" y="169" width="31"/>
+      <widgets ref="7" x="-9" y="128" width="64"/>
+      <widgets ref="9" x="-9" y="167" width="64"/>
+      <widgets ref="12" x="126" y="128" width="40"/>
+      <widgets ref="14" x="126" y="167" width="40"/>
+      <widgets ref="16" x="213" y="167" width="40"/>
+      <widgets ref="18" x="213" y="128" width="40"/>
+      <widgets ref="19" x="-87" y="119" width="88"/>
+      <widgets ref="20" x="106" y="121"/>
+      <widgets ref="21" x="166" y="130" width="31"/>
+      <widgets ref="11" x="174" y="137" width="15"/>
+      <widgets ref="24" x="166" y="169" width="31"/>
+      <widgets ref="25" x="173" y="176" width="15"/>
+      <widgets ref="26" x="253" y="130" width="31"/>
+      <widgets ref="27" x="262" y="136" width="15"/>
+      <widgets ref="28" x="253" y="169" width="31"/>
+      <widgets ref="29" x="261" y="176" width="15"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="35" x="435" y="640" measuredWidth="144" measuredHeight="48">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Controls.screen#Button%20Raised"/>
+    <overrides>
+      <widgets ref="15" width="144" height="48" text="Modify profile">
+        <attributes key="shapeType" value="rectangle-rounded"/>
+        <attributes key="border" value="true"/>
+        <attributes key="foreground" value="#c6c8c9"/>
+        <attributes key="background" value="#c6c8c9"/>
+        <font size="18px"/>
+      </widgets>
+    </overrides>
+  </widgets>
   <widgets xsi:type="model:Hotspot" id="31" x="597" y="175" width="9" height="545" measuredWidth="9" measuredHeight="545" link="account_propositions.screen"/>
+  <widgets xsi:type="model:Master" id="36" x="197" y="117" width="410" measuredWidth="410" measuredHeight="49" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/common/search_bar.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="125" y="180" width="410"/>
+      <widgets ref="2" x="194" y="190" width="326"/>
+      <widgets ref="5" x="162" y="192" width="22"/>
+      <widgets ref="6" x="133" y="190" width="28"/>
+    </overrides>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
