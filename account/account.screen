@@ -57,24 +57,23 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="29" x="197" y="713" measuredWidth="410" measuredHeight="73" dimmed="true">
-    <screen xsi:type="model:Screen" href="../assets/common/bottom_bar.screen#/"/>
-    <overrides>
-      <widgets ref="1" x="86" y="191" width="410"/>
-      <widgets ref="2" x="109" y="200" width="30"/>
-      <widgets ref="3" x="196" y="200" width="30"/>
-      <widgets ref="4" x="355" y="200" width="30"/>
-      <widgets ref="5" x="442" y="200" width="30"/>
-      <widgets ref="7" x="418" y="191" width="76"/>
-      <widgets ref="8" x="369" y="198" width="22"/>
-      <widgets ref="10" x="254" y="180" width="69"/>
-      <widgets ref="10/12" width="69"/>
-      <widgets ref="12" x="254" y="240" width="69"/>
-      <widgets ref="10/13" x="-192" y="103"/>
-    </overrides>
-  </widgets>
   <widgets xsi:type="model:Master" id="1" x="176" y="16" measuredWidth="456" measuredHeight="872" dimmed="true">
     <screen xsi:type="model:Screen" href="../phone.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="30" x="197" y="700" width="410" measuredWidth="410" measuredHeight="74" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/common/bottom_bar.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="101" y="158" width="410"/>
+      <widgets ref="2" x="125" y="167" width="31"/>
+      <widgets ref="3" x="211" y="167" width="31"/>
+      <widgets ref="4" x="370" y="167" width="31"/>
+      <widgets ref="5" x="457" y="167" width="31"/>
+      <widgets ref="7" x="433" y="158" width="77"/>
+      <widgets ref="8" x="385" y="165" width="23"/>
+      <widgets ref="10" x="270" y="133" width="70"/>
+      <widgets ref="10/12" width="70"/>
+      <widgets ref="10/13" x="-177" y="70"/>
+    </overrides>
   </widgets>
   <hRuler/>
   <vRuler/>
