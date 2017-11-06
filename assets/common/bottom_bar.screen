@@ -8,6 +8,7 @@
   <widgets xsi:type="model:Callout" id="6" x="560" y="197" text="1" measuredWidth="22" measuredHeight="22" background="#e06666">
     <font size="9px" bold="true"/>
   </widgets>
+  <widgets xsi:type="model:Hotspot" id="7" x="624" y="192" width="78" height="49" measuredWidth="78" measuredHeight="49" link="../../account/account.screen"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

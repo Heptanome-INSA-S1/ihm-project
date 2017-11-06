@@ -9,10 +9,7 @@
   <widgets xsi:type="model:Master" id="6" x="179" y="741" measuredWidth="414" measuredHeight="49" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/common/bottom_bar.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="7" x="179" y="179" measuredWidth="414" measuredHeight="81" dimmed="true">
-    <screen xsi:type="model:Screen" href="../assets/home/header.screen#/"/>
-  </widgets>
-  <widgets xsi:type="model:Master" id="12" x="199" y="280" measuredWidth="374" measuredHeight="169" dimmed="true">
+  <widgets xsi:type="model:Master" id="12" x="199" y="285" measuredWidth="374" measuredHeight="169" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/home/minimalised_request.screen#/"/>
     <overrides>
       <widgetChanges xsi:type="o:Delete" ref="13"/>
@@ -36,16 +33,18 @@
   <widgets xsi:type="model:Master" id="14" x="201" y="663" measuredWidth="374" measuredHeight="80" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/home/minimalised_request.screen#/"/>
     <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="14"/>
       <widgetChanges xsi:type="o:Delete" ref="13"/>
       <widgetChanges xsi:type="o:Delete" ref="12"/>
       <widgetChanges xsi:type="o:Delete" ref="11"/>
       <widgetChanges xsi:type="o:Delete" ref="10"/>
-      <widgetChanges xsi:type="o:Delete" ref="8"/>
-      <widgetChanges xsi:type="o:Delete" ref="7"/>
       <widgetChanges xsi:type="o:Delete" ref="6"/>
       <widgets ref="1" height="80"/>
       <widgets ref="5" height="23"/>
     </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="15" x="179" y="178" measuredWidth="414" measuredHeight="97" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/home/filter_top.screen#/"/>
   </widgets>
   <hRuler/>
   <vRuler/>

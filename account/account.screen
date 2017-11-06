@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="176" y="16" measuredWidth="456" measuredHeight="872" dimmed="true">
+    <screen xsi:type="model:Screen" href="../phone.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="2" x="313" y="166" width="75" height="75" measuredWidth="75" measuredHeight="75" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="3" x="320" y="184" width="61" height="59" measuredWidth="61" measuredHeight="59" icon="user (xlarge)"/>
+  <widgets xsi:type="model:Label" id="4" x="408" y="166" width="65" text="145" measuredWidth="65" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="408" y="201" width="65" text="3,5 / 5" measuredWidth="65" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="6" x="480" y="168" measuredWidth="32" measuredHeight="32" icon="assets/ic-local-play (large)"/>
+  <widgets xsi:type="model:Icon" id="7" x="480" y="203" measuredWidth="32" measuredHeight="32" icon="heart (large)"/>
+  <widgets xsi:type="model:Label" id="8" x="216" y="344" width="121" text="Name:" measuredWidth="121" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="216" y="384" width="129" text="First name: " measuredWidth="129" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="216" y="434" width="65" text="Email :" measuredWidth="65" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="216" y="488" width="115" text="Address :" measuredWidth="115" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="13" x="330" y="347" width="255" text="De Nice" measuredWidth="255" measuredHeight="29" state="disabled">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="14" x="330" y="387" width="255" text="Brice" measuredWidth="255" measuredHeight="29" state="disabled">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="15" x="330" y="442" width="255" text="brice.de-nice@gmail.com" measuredWidth="255" measuredHeight="29" state="disabled">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="17" x="216" y="528" width="369" height="97" text="1, Rue des Lilas&#xD;&#xA;69006 Lyon" measuredWidth="369" measuredHeight="97" state="disabled">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="18" x="320" y="688" width="153" height="49" text="Modify" measuredWidth="153" measuredHeight="49">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="19" x="216" y="640" width="177" height="33" text="Service Proposals" measuredWidth="177" measuredHeight="33" textAlignment="Left">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="20" x="216" y="640" width="177" height="33" measuredWidth="177" measuredHeight="33" link="../service_proposal/filter_menu.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

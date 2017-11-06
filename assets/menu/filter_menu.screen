@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="4" x="148" y="164" width="414" height="562" measuredWidth="414" measuredHeight="562"/>
+  <widgets xsi:type="model:Button" id="5" x="168" y="208" width="107" height="97" measuredWidth="107" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="183" y="231" text="Music training" measuredWidth="77" measuredHeight="59" textAlignment="Center" icon="note (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="8" x="304" y="208" width="107" height="97" measuredWidth="107" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="9" x="437" y="208" width="107" height="97" measuredWidth="107" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="333" y="231" text="Tutelage" measuredWidth="48" measuredHeight="59" textAlignment="Center" icon="assets/superscript-text-formatting (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="457" y="228" text="Informations" measuredWidth="68" measuredHeight="59" textAlignment="Center" icon="info (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="12" x="168" y="331" width="107" height="97" measuredWidth="107" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="205" y="354" text="Sport" measuredWidth="32" measuredHeight="59" textAlignment="Center" icon="assets/dribbble-logo (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="14" x="304" y="331" width="107" height="97" measuredWidth="107" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="15" x="437" y="331" width="107" height="97" measuredWidth="107" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="333" y="354" text="Carshare" measuredWidth="48" measuredHeight="59" textAlignment="Center" icon="assets/ic-directions-car (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="462" y="351" text="Bike repair" measuredWidth="57" measuredHeight="59" textAlignment="Center" icon="assets/ic-directions-bike (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="18" x="167" y="458" width="107" height="97" measuredWidth="107" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="185" y="481" text="Tools sharing" measuredWidth="70" measuredHeight="59" textAlignment="Center" icon="assets/briefcase (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="20" x="303" y="458" width="107" height="97" measuredWidth="107" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="21" x="436" y="458" width="107" height="97" measuredWidth="107" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="320" y="481" text="Draw training" measuredWidth="73" measuredHeight="59" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="454" y="478" text="Dish cleaning" measuredWidth="72" measuredHeight="59" textAlignment="Center" icon="assets/ic-local-bar (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="24" x="168" y="592" width="107" height="97" measuredWidth="107" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="193" y="615" text="Pet sitting" measuredWidth="55" measuredHeight="59" textAlignment="Center" icon="assets/ic-pets (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="26" x="304" y="592" width="107" height="97" measuredWidth="107" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="27" x="437" y="592" width="107" height="97" measuredWidth="107" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="316" y="615" text="Rearrangement" measuredWidth="82" measuredHeight="59" textAlignment="Center" icon="assets/dropbox-logo (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="29" x="467" y="612" text="Cleaning" measuredWidth="48" measuredHeight="59" textAlignment="Center" icon="wizard (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

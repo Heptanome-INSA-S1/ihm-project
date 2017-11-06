@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="243" y="16" measuredWidth="456" measuredHeight="872" dimmed="true">
+    <screen xsi:type="model:Screen" href="../phone.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="436" y="128" measuredWidth="60" measuredHeight="27">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Typography.screen#Header"/>
+    <overrides>
+      <widgets ref="15" text="SIGN UP"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="3" x="378" y="192" width="263" text="First name" measuredWidth="263" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="288" y="192" text="First Name" measuredWidth="77" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="5" x="378" y="228" width="263" text="First name" measuredWidth="263" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="288" y="228" text="First Name" measuredWidth="77" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="7" x="378" y="264" width="185" text="First name" measuredWidth="185" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="288" y="264" text="First Name" measuredWidth="77" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="9" x="288" y="352" width="353" text="My address" measuredWidth="353" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="288" y="322" text="Address" measuredWidth="60" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="11" x="378" y="392" width="185" text="Postal Code" measuredWidth="185" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="288" y="392" text="Postal Code" measuredWidth="85" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="13" x="378" y="428" width="185" text="City" measuredWidth="185" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="288" y="428" text="City" measuredWidth="32" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="15" x="379" y="504" width="185" text="Password" measuredWidth="185" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="289" y="504" text="Password" measuredWidth="69" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="17" x="379" y="544" width="185" text="Confirmation" measuredWidth="185" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="289" y="544" text="Confirmation" measuredWidth="93" measuredHeight="29">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="20" x="274" y="624" width="390" height="65" measuredWidth="390" measuredHeight="65"/>
+  <widgets xsi:type="model:List" id="19" x="284" y="640" text="[x] I accept terms" measuredWidth="124" measuredHeight="33" border="false" alpha="0">
+    <font size="15px"/>
+    <items x="0" y="2" width="124" height="29" text="[x] I accept terms"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="21" x="274" y="720" width="163" height="33" text="Sign up" measuredWidth="163" measuredHeight="33">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="22" x="501" y="720" width="163" height="33" text="Cancel" measuredWidth="163" measuredHeight="33">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="23" x="274" y="720" width="163" height="33" measuredWidth="163" measuredHeight="33" link="login.screen"/>
+  <widgets xsi:type="model:Hotspot" id="24" x="501" y="720" width="163" height="33" measuredWidth="163" measuredHeight="33" link="login.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
