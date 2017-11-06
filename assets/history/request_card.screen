@@ -1,41 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Panel" id="19" x="234" y="176" width="356" height="129" measuredWidth="356" measuredHeight="129" foreground="#ccc" border="solid-rounded"/>
-  <widgets xsi:type="model:Master" id="20" x="314" y="189" measuredWidth="38" measuredHeight="29">
-    <screen xsi:type="model:WidgetGroup" href="../Android5/Typography.screen#Header"/>
+  <widgets xsi:type="model:Master" id="29" x="191" y="212" measuredWidth="398" measuredHeight="145" dimmed="true">
+    <screen xsi:type="model:Screen" href="history_template.screen#/"/>
     <overrides>
-      <widgets ref="15" text="Title">
-        <font size="15px"/>
+      <widgets ref="9" x="192" y="185"/>
+      <widgets ref="10" x="192" y="227"/>
+      <widgets ref="11" x="192" y="267"/>
+      <widgets ref="14/15" text="REQUEST: PENDING">
+        <attributes key="background" value="#999"/>
       </widgets>
     </overrides>
-  </widgets>
-  <widgets xsi:type="model:Icon" id="21" x="276" y="187" measuredWidth="32" measuredHeight="32" icon="info (large)"/>
-  <widgets xsi:type="model:VLine" id="22" x="251" y="188" height="107" measuredWidth="6" measuredHeight="107" foreground="#999"/>
-  <widgets xsi:type="model:Master" id="23" x="276" y="222" measuredWidth="39" measuredHeight="29">
-    <screen xsi:type="model:WidgetGroup" href="../Android5/Typography.screen#Text%20Small"/>
-    <overrides>
-      <widgets ref="6" text="Hour">
-        <font size="15px"/>
-      </widgets>
-    </overrides>
-  </widgets>
-  <widgets xsi:type="model:Master" id="24" x="276" y="247" measuredWidth="77" measuredHeight="27">
-    <screen xsi:type="model:WidgetGroup" href="../Android5/Typography.screen#Text%20Small"/>
-    <overrides>
-      <widgets ref="6" text="At: Location"/>
-    </overrides>
-  </widgets>
-  <widgets xsi:type="model:Button" id="25" x="448" y="164" width="133" text="request: pending" measuredWidth="133" measuredHeight="26" style="round">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="26" x="195" y="182" height="36" measuredWidth="36" measuredHeight="36" icon="user (small)" style="round">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="27" x="195" y="224" height="36" measuredWidth="36" measuredHeight="36" icon="user (small)" style="round">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="28" x="195" y="264" height="36" measuredWidth="36" measuredHeight="36" icon="user (small)" style="round">
-    <font/>
   </widgets>
   <hRuler/>
   <vRuler/>

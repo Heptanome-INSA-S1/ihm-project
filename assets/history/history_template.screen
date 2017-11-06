@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Panel" id="1" x="234" y="176" width="356" height="129" measuredWidth="356" measuredHeight="129" foreground="#ccc" border="solid-rounded"/>
+  <widgets xsi:type="model:Panel" id="1" x="234" y="176" width="356" height="129" measuredWidth="356" measuredHeight="129" foreground="#ccc" border="none"/>
   <widgets xsi:type="model:Master" id="2" x="314" y="189" measuredWidth="38" measuredHeight="29">
     <screen xsi:type="model:WidgetGroup" href="../Android5/Typography.screen#Header"/>
     <overrides>
@@ -25,9 +25,6 @@
       <widgets ref="6" text="At: Location"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Button" id="7" x="448" y="164" width="133" text="type" measuredWidth="133" measuredHeight="26" style="round">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:Button" id="9" x="288" y="294" height="36" measuredWidth="36" measuredHeight="36" icon="user (small)" style="round">
     <font/>
   </widgets>
@@ -40,6 +37,14 @@
   <widgets xsi:type="model:Icon" id="12" x="512" y="273" measuredWidth="24" measuredHeight="24" icon="assets/ic-local-activity (medium)"/>
   <widgets xsi:type="model:Label" id="13" x="494" y="270" text="5" measuredWidth="14" measuredHeight="29">
     <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="14" x="432" y="160" width="144" measuredWidth="144" measuredHeight="28">
+    <screen xsi:type="model:WidgetGroup" href="../Android5/Controls.screen#Button%20Raised"/>
+    <overrides>
+      <widgets ref="15" width="144" height="28" text="TYPE">
+        <attributes key="shapeType" value="rectangle-rounded"/>
+      </widgets>
+    </overrides>
   </widgets>
   <hRuler/>
   <vRuler/>

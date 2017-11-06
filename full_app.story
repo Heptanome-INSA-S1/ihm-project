@@ -3,8 +3,17 @@
   <panels id="EQaxG8CI0k8tRGL-CazAdGC-G9w=" x="675" y="75">
     <screen href="desktop.screen#/"/>
   </panels>
-  <panels id="FELkpIEd-b5yrZ2lGnt_AuO64OM=" x="975" y="375">
-    <screen href="login/login.screen#/"/>
+  <panels id="gMYO6vFBSYnusvDnh2V22xjxDdI=" x="75" y="75">
+    <screen href="account/account.screen#/"/>
+  </panels>
+  <panels id="3vWA4cIBKRtTXX_iM1Ki2hDeDfc=" x="375" y="75">
+    <screen href="home/add_request.screen#/"/>
+  </panels>
+  <panels id="0JYG2Kh2f0XOmVTypTIPyQKwcbc=" x="975" y="75">
+    <screen href="menu/filter_menu.screen#/"/>
+  </panels>
+  <panels id="Gf2wf15UxlpoVWIrkNCBtZjOYFk=" x="75" y="375">
+    <screen href="service_proposal/filter_menu.screen#/"/>
   </panels>
   <panels id="n5K9Ta__fmvJaWnnAvGCPP_Ms8U=" x="375" y="675">
     <screen href="login/signup.screen#/"/>

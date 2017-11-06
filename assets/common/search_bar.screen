@@ -5,7 +5,7 @@
     <font size="17px"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="5" x="327" y="204" measuredWidth="24" measuredHeight="24" foreground="#fff" icon="assets/ic-local-activity (medium)"/>
-  <widgets xsi:type="model:Label" id="6" x="298" y="202" text="150" measuredWidth="30" measuredHeight="28" foreground="#fff">
+  <widgets xsi:type="model:Label" id="6" x="298" y="202" text="150" measuredWidth="30" measuredHeight="29" foreground="#fff">
     <font size="15px"/>
   </widgets>
   <hRuler/>
