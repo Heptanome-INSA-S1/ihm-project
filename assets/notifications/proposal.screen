@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model:Screen xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="249" y="248" measuredWidth="414" measuredHeight="208">
+    <screen xsi:type="model:WidgetGroup" href="../Android5/Content.screen#Card%20Medium"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="5">
+        <object xsi:type="model:Icon" id="2" x="15" y="72" width="36" icon="assets/ic-date-range (large)"/>
+      </widgetChanges>
+      <widgets ref="25" width="414"/>
+      <widgets ref="26" text="Proposal"/>
+      <widgets ref="29" width="412"/>
+      <widgets ref="30" text="Accepter , Refuser">
+        <items ref="@items.1" text="Accepter "/>
+        <itemChanges xsi:type="o:Insert" newIndex="2">
+          <object xsi:type="model:Item" text="Refuser"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Delete" ref="@items.0"/>
+      </widgets>
+      <widgets ref="31" y="120" width="382" height="25" text="Damien aimerait participer à votre covoiturage."/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="304" y="324" measuredWidth="52" measuredHeight="23">
+    <screen xsi:type="model:WidgetGroup" href="../Android5/Typography.screen#Text%20Micro"/>
+    <overrides>
+      <widgets ref="8" text="21/10/17"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="501" y="269" measuredWidth="152" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="../Android5/Content.screen#Contact%20Chip"/>
+    <overrides>
+      <widgets ref="2" x="0" width="152" text="Damien d'Amiens"/>
+    </overrides>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

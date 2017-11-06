@@ -15,6 +15,37 @@
       <widgets ref="6" x="296" width="28"/>
     </overrides>
   </widgets>
+  <widgets xsi:type="model:Master" id="8" x="211" y="211" width="412" measuredWidth="412" measuredHeight="208">
+    <screen xsi:type="model:Screen" href="../assets/notifications/request.screen#/"/>
+    <overrides>
+      <widgets ref="1" width="412"/>
+      <widgets ref="1/25" width="412"/>
+      <widgets ref="1/29" width="410"/>
+      <widgets ref="1/31" width="380"/>
+      <widgets ref="4" x="14" width="35"/>
+      <widgets ref="2" x="516" width="137"/>
+      <widgets ref="2/2" width="137"/>
+      <widgets ref="5" x="303" width="51"/>
+      <widgets ref="5/8" width="51"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="9" x="211" y="448" width="411" measuredWidth="411" measuredHeight="208">
+    <screen xsi:type="model:Screen" href="../assets/notifications/proposal.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="22" y="155" width="411"/>
+      <widgets ref="1/25" width="411"/>
+      <widgets ref="1/29" width="409"/>
+      <widgets ref="1/31" width="379"/>
+      <widgets ref="2" x="14" width="35"/>
+      <widgets ref="3" x="76" y="231" width="51"/>
+      <widgets ref="3/8" width="51"/>
+      <widgets ref="4" x="272" y="176" width="150"/>
+      <widgets ref="4/2" width="150"/>
+      <widgets ref="4/1" x="149" y="-85"/>
+      <widgets ref="3/7" x="-217" y="-83"/>
+      <widgets ref="1/32" x="-219" y="252"/>
+    </overrides>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
