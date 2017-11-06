@@ -3,11 +3,17 @@
   <widgets xsi:type="model:Master" id="2" x="190" y="15" measuredWidth="456" measuredHeight="872" dimmed="true">
     <screen xsi:type="model:Screen" href="../phone.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="3" x="209" y="712" measuredWidth="414" measuredHeight="74" dimmed="true">
+  <widgets xsi:type="model:Master" id="3" x="209" y="698" measuredWidth="414" measuredHeight="74" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/common/bottom_bar.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="5" x="209" y="116" measuredWidth="414" measuredHeight="49" dimmed="true">
+  <widgets xsi:type="model:Master" id="5" x="211" y="116" width="410" measuredWidth="410" measuredHeight="49" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/common/search_bar.screen#/"/>
+    <overrides>
+      <widgets ref="1" width="410"/>
+      <widgets ref="2" x="357" width="326"/>
+      <widgets ref="5" x="325" width="22"/>
+      <widgets ref="6" x="296" width="28"/>
+    </overrides>
   </widgets>
   <hRuler/>
   <vRuler/>

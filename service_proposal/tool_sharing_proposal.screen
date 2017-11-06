@@ -3,63 +3,63 @@
   <widgets xsi:type="model:Master" id="1" x="207" y="32" measuredWidth="456" measuredHeight="872" dimmed="true">
     <screen xsi:type="model:Screen" href="../phone.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="2" x="226" y="741" measuredWidth="414" measuredHeight="49" dimmed="true">
+  <widgets xsi:type="model:Master" id="2" x="226" y="715" measuredWidth="414" measuredHeight="74" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/common/bottom_bar.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Master" id="3" x="226" y="133" measuredWidth="414" measuredHeight="49" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/common/search_bar.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="4" x="226" y="215" width="414" height="84" measuredWidth="414" measuredHeight="84"/>
-  <widgets xsi:type="model:Master" id="5" x="367" y="239" measuredWidth="132" measuredHeight="38">
+  <widgets xsi:type="model:Master" id="5" x="367" y="239" measuredWidth="135" measuredHeight="38">
     <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Typography.screen#Text%20Large"/>
     <overrides>
       <widgets ref="2" text="Tools Sharing"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Icon" id="6" x="577" y="242" measuredWidth="32" measuredHeight="32" icon="assets/open-wrench-tool-silhouette (large)"/>
-  <widgets xsi:type="model:Label" id="8" x="244" y="338" text="What ?" measuredWidth="52" measuredHeight="29">
+  <widgets xsi:type="model:Label" id="8" x="244" y="338" text="What ?" measuredWidth="52" measuredHeight="28">
     <font size="15px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="10" x="244" y="389" text="When ?" measuredWidth="56" measuredHeight="29">
+  <widgets xsi:type="model:Label" id="10" x="244" y="389" text="When ?" measuredWidth="55" measuredHeight="28">
     <font size="15px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="12" x="244" y="428" text="Between" measuredWidth="63" measuredHeight="29">
+  <widgets xsi:type="model:Label" id="12" x="244" y="428" text="Between" measuredWidth="63" measuredHeight="28">
     <font size="15px"/>
   </widgets>
-  <widgets xsi:type="model:DateField" id="13" x="341" y="431" width="120" text="  /  /  " measuredWidth="120" measuredHeight="24"/>
-  <widgets xsi:type="model:Label" id="15" x="473" y="428" text="and" measuredWidth="31" measuredHeight="29">
+  <widgets xsi:type="model:DateField" id="13" x="341" y="431" width="120" text="  /  /  " measuredWidth="120" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="15" x="473" y="428" text="and" measuredWidth="31" measuredHeight="28">
     <font size="15px"/>
   </widgets>
-  <widgets xsi:type="model:DateField" id="16" x="509" y="431" width="120" text="  /  /  " measuredWidth="120" measuredHeight="24"/>
-  <widgets xsi:type="model:Label" id="18" x="243" y="489" text="Address" measuredWidth="60" measuredHeight="29">
+  <widgets xsi:type="model:DateField" id="16" x="509" y="431" width="120" text="  /  /  " measuredWidth="120" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="18" x="243" y="489" text="Address" measuredWidth="59" measuredHeight="28">
     <font size="15px"/>
   </widgets>
   <widgets xsi:type="model:TextArea" id="19" x="243" y="524" width="384" height="97" text="Address" measuredWidth="384" measuredHeight="97">
     <font size="15px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="22" x="242" y="652" text="Charged ?" measuredWidth="73" measuredHeight="29">
+  <widgets xsi:type="model:Label" id="22" x="242" y="652" text="Charged ?" measuredWidth="73" measuredHeight="28">
     <font size="15px"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="23" x="244" y="684" width="293" text="Amount" measuredWidth="293" measuredHeight="29" state="disabled">
+  <widgets xsi:type="model:TextField" id="23" x="244" y="684" width="293" text="Amount" measuredWidth="293" measuredHeight="28" state="disabled">
     <font size="15px"/>
   </widgets>
-  <widgets xsi:type="model:Switch" id="24" x="352" y="655" text="YES, NO" measuredWidth="69" measuredHeight="24" background="#3d85c6">
+  <widgets xsi:type="model:Switch" id="24" x="352" y="655" text="YES, NO" measuredWidth="68" measuredHeight="23" background="#3d85c6">
     <font/>
   </widgets>
   <widgets xsi:type="model:Icon" id="25" x="564" y="683" measuredWidth="32" measuredHeight="32" icon="assets/ic-local-play (large)"/>
-  <widgets xsi:type="model:ButtonBar" id="28" x="226" y="180" width="414" text="  CANCEL , PROPOSE" measuredWidth="414" measuredHeight="37" selection="0">
+  <widgets xsi:type="model:ButtonBar" id="28" x="226" y="180" width="414" text="  CANCEL , PROPOSE" measuredWidth="414" measuredHeight="36" selection="0">
     <font size="15px"/>
-    <items x="0" y="0" width="205" height="37" text="  CANCEL "/>
-    <items x="205" y="0" width="209" height="37" text="PROPOSE"/>
+    <items x="0" y="0" width="208" height="36" text="  CANCEL "/>
+    <items x="208" y="0" width="206" height="36" text="PROPOSE"/>
   </widgets>
   <widgets xsi:type="model:Hotspot" id="29" x="432" y="181" width="209" height="36" measuredWidth="209" measuredHeight="36" link="filter_menu.screen"/>
   <widgets xsi:type="model:List" id="31" x="341" y="352" width="237" height="77" text="&#xD;&#xA;Drill&#xD;&#xA;Screwdriver" measuredWidth="237" measuredHeight="77">
     <font/>
-    <items x="0" y="2" width="237" height="22"/>
-    <items x="0" y="24" width="237" height="22" text="Drill"/>
-    <items x="0" y="46" width="237" height="22" text="Screwdriver"/>
+    <items x="0" y="2" width="237" height="21"/>
+    <items x="0" y="23" width="237" height="21" text="Drill"/>
+    <items x="0" y="44" width="237" height="21" text="Screwdriver"/>
   </widgets>
-  <widgets xsi:type="model:SearchField" id="30" x="341" y="340" width="237" text="dr" measuredWidth="237" measuredHeight="29">
+  <widgets xsi:type="model:SearchField" id="30" x="341" y="340" width="237" text="dr" measuredWidth="237" measuredHeight="28">
     <font size="15px"/>
   </widgets>
   <hRuler/>

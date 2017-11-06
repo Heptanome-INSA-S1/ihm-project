@@ -6,11 +6,11 @@
   <widgets xsi:type="model:Master" id="2" x="209" y="118" measuredWidth="414" measuredHeight="49" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/common/search_bar.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="3" x="209" y="724" measuredWidth="414" measuredHeight="49" dimmed="true">
-    <screen xsi:type="model:Screen" href="../assets/common/bottom_bar.screen#/"/>
-  </widgets>
   <widgets xsi:type="model:Master" id="4" x="209" y="165" measuredWidth="414" measuredHeight="562" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/menu/filter_menu.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="209" y="699" measuredWidth="414" measuredHeight="74" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/common/bottom_bar.screen#/"/>
   </widgets>
   <hRuler/>
   <vRuler/>
