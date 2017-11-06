@@ -5,10 +5,9 @@
     <font size="17px"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="5" x="327" y="204" measuredWidth="24" measuredHeight="24" foreground="#fff" icon="assets/ic-local-activity (medium)"/>
-  <widgets xsi:type="model:Label" id="6" x="298" y="202" text="150" measuredWidth="30" measuredHeight="28" foreground="#fff">
+  <widgets xsi:type="model:Label" id="6" x="298" y="202" text="150" measuredWidth="30" measuredHeight="29" foreground="#fff">
     <font size="15px"/>
   </widgets>
-  <widgets xsi:type="model:Hotspot" id="7" x="648" y="192" width="54" height="49" measuredWidth="54" measuredHeight="49" link="../../home/add_request.screen"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

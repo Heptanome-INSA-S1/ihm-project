@@ -18,12 +18,15 @@
       <widgets ref="6" noText="true"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="11" x="270" y="726" measuredWidth="414" measuredHeight="49" dimmed="true">
+  <widgets xsi:type="model:Master" id="11" x="270" y="700" measuredWidth="414" measuredHeight="74" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/common/bottom_bar.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="49" x="279" y="194" measuredWidth="397" measuredHeight="141" dimmed="true">
+  <widgets xsi:type="model:Master" id="49" x="279" y="194" measuredWidth="397" measuredHeight="145" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/history/done_card.screen#/"/>
     <overrides>
+      <widgets ref="11/3">
+        <attributes key="icon" value="assets/ic-music-note (large)"/>
+      </widgets>
       <widgets ref="11/9" x="595" y="180">
         <attributes key="background" value="#93c47d"/>
       </widgets>
@@ -33,37 +36,51 @@
       <widgets ref="11/11" x="595" y="262">
         <attributes key="background" value="#93c47d"/>
       </widgets>
-      <widgets ref="11/7" text="task: done"/>
+      <widgets ref="11/2/15" text="Guitar lesson"/>
+      <widgets ref="11/5/6" text="14:30"/>
+      <widgets ref="11/6/6" text="At: INSA Lyon"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="50" x="279" y="360" measuredWidth="397" measuredHeight="141" dimmed="true">
+  <widgets xsi:type="model:Master" id="50" x="279" y="360" measuredWidth="397" measuredHeight="145" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/history/done_card.screen#/"/>
     <overrides>
-      <widgets ref="11/7" text="task: failed">
-        <attributes key="background" value="#e06666"/>
-      </widgets>
       <widgets ref="11/9" x="595" y="180">
         <attributes key="background" value="#e06666"/>
       </widgets>
+      <widgets ref="11/14/15" text="TASK: FAILED">
+        <attributes key="background" value="#e06666"/>
+      </widgets>
       <widgets ref="11">
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.10"/>
         <widgetChanges xsi:type="o:Delete" ref="/@widgets.9"/>
         <widgetChanges xsi:type="o:Delete" ref="/@widgets.8"/>
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.7"/>
       </widgets>
+      <widgets ref="11/2/15" text="Running meeting"/>
+      <widgets ref="11/5/6" text="17:00"/>
+      <widgets ref="11/6/6" text="At: Park &quot;De la tête d'or&quot;"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="51" x="282" y="531" measuredWidth="396" measuredHeight="141" dimmed="true">
+  <widgets xsi:type="model:Master" id="51" x="277" y="525" measuredWidth="402" measuredHeight="145" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/history/closed_card.screen#/"/>
     <overrides>
       <widgets ref="9" x="355" y="226"/>
-      <widgets ref="9/9" x="194" y="181"/>
-      <widgets ref="9/10" x="194" y="223"/>
+      <widgets ref="9/9" x="188" y="179"/>
+      <widgets ref="9/10" x="188" y="221"/>
       <widgets ref="9">
-        <widgetChanges xsi:type="o:Insert" newIndex="10">
-          <object xsi:type="model:Icon" id="52" x="196" y="263" icon="assets/ic-more-horiz (large)"/>
+        <widgetChanges xsi:type="o:Insert" newIndex="11">
+          <object xsi:type="model:Icon" id="52" x="190" y="263" icon="assets/ic-more-horiz (large)"/>
         </widgetChanges>
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.10"/>
         <widgetChanges xsi:type="o:Delete" ref="/@widgets.9"/>
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.8"/>
       </widgets>
-      <widgets ref="9/7" text="request: closed"/>
+      <widgets ref="9/2/15" text="Carshare to part-dieu"/>
+      <widgets ref="9/5/6" text="19:30"/>
+      <widgets ref="9/6/6" text="At: INSA Lyon"/>
+      <widgets ref="9/3">
+        <attributes key="icon" value="car (large)"/>
+      </widgets>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Hotspot" id="53" x="673" y="176" width="9" height="545" measuredWidth="9" measuredHeight="545" link="history_suite.screen"/>

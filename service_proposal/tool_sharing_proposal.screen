@@ -3,7 +3,7 @@
   <widgets xsi:type="model:Master" id="1" x="207" y="32" measuredWidth="456" measuredHeight="872" dimmed="true">
     <screen xsi:type="model:Screen" href="../phone.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="2" x="226" y="741" measuredWidth="414" measuredHeight="49" dimmed="true">
+  <widgets xsi:type="model:Master" id="2" x="226" y="715" measuredWidth="414" measuredHeight="74" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/common/bottom_bar.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Master" id="3" x="226" y="133" measuredWidth="414" measuredHeight="49" dimmed="true">
