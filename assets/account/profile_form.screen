@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Panel" id="1" x="136" y="120" width="411" height="321" measuredWidth="411" measuredHeight="321" background="#f0f0f1" border="none"/>
+  <widgets xsi:type="model:Master" id="2" x="152" y="130" measuredWidth="291" measuredHeight="212">
+    <screen xsi:type="model:WidgetGroup" href="../Android5/Controls.screen#Text%20Field%20with%20Label"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="2">
+        <object xsi:type="model:Label" id="7" x="1" y="179" text="Address" layoutParams="anchor-left|anchor-top">
+          <font size="18px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="2">
+        <object xsi:type="model:Label" id="6" x="1" y="94" text="E-mail" layoutParams="anchor-left|anchor-top">
+          <font size="18px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="2">
+        <object xsi:type="model:TextField" id="5" y="108" text="brice.denice@surf.fr" layoutParams="anchor-left,anchor-right|anchor-top" alpha="0" skin="../Android5/_text-field.svg">
+          <font size="28px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="2">
+        <object xsi:type="model:Label" id="4" x="203" text="First name" layoutParams="anchor-left|anchor-top">
+          <font size="18px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="2">
+        <object xsi:type="model:TextField" id="3" x="202" y="14" text="Brice" layoutParams="anchor-left,anchor-right|anchor-top" alpha="0" skin="../Android5/_text-field.svg">
+          <font size="28px"/>
+        </object>
+      </widgetChanges>
+      <widgets ref="54" x="1" text="DeNice">
+        <font size="28px"/>
+      </widgets>
+      <widgets ref="55" x="2" text="Name">
+        <font size="18px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="8" x="154" y="341" measuredWidth="248" measuredHeight="92">
+    <screen xsi:type="model:WidgetGroup" href="../Android5/Controls.screen#Text%20Area"/>
+    <overrides>
+      <widgets ref="59" text="1 rue des Lilas&#xD;&#xA;69100, Villeurbanne">
+        <font size="28px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

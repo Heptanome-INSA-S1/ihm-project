@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1" x="48" y="160" width="413" measuredWidth="413" measuredHeight="100" background="#f0f0f1" border="none"/>
+  <widgets xsi:type="model:Icon" id="5" x="200" y="176" width="32" height="32" measuredWidth="32" measuredHeight="32" foreground="#25272a" icon="assets/ic-local-play (large)"/>
+  <widgets xsi:type="model:Icon" id="6" x="200" y="215" measuredWidth="32" measuredHeight="32" foreground="#e74c3c" icon="assets/ic-favorite (large)"/>
+  <widgets xsi:type="model:Label" id="7" x="136" y="174" width="65" text="145" measuredWidth="65" measuredHeight="36" textAlignment="Right">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="136" y="213" width="65" text="3,5" measuredWidth="65" measuredHeight="36" textAlignment="Right">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="272" y="174" width="41" text="4" measuredWidth="41" measuredHeight="36" textAlignment="Right">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="272" y="213" width="41" text="5" measuredWidth="41" measuredHeight="36" textAlignment="Right">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="360" y="213" width="41" text="2" measuredWidth="41" measuredHeight="36" textAlignment="Right">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="360" y="174" width="41" text="3" measuredWidth="41" measuredHeight="36" textAlignment="Right">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="19" x="58" y="165" width="89" height="90" measuredWidth="89" measuredHeight="90" foreground="#25272a" icon="assets/ic-account-circle (xlarge)"/>
+  <widgets xsi:type="model:VLine" id="20" x="252" y="167" height="86" measuredWidth="6" measuredHeight="86" foreground="#c6c8c9"/>
+  <widgets xsi:type="model:Icon" id="21" x="312" y="176" measuredWidth="32" measuredHeight="32" foreground="#e74c3c" icon="assets/ic-favorite (large)"/>
+  <widgets xsi:type="model:Icon" id="11" x="320" y="183" measuredWidth="16" measuredHeight="16" foreground="#fff" icon="assets/ic-school (small)"/>
+  <widgets xsi:type="model:Icon" id="24" x="312" y="215" measuredWidth="32" measuredHeight="32" foreground="#e74c3c" icon="assets/ic-favorite (large)"/>
+  <widgets xsi:type="model:Icon" id="25" x="319" y="222" measuredWidth="16" measuredHeight="16" foreground="#fff" icon="assets/ic-build (small)"/>
+  <widgets xsi:type="model:Icon" id="26" x="400" y="176" measuredWidth="32" measuredHeight="32" foreground="#e74c3c" icon="assets/ic-favorite (large)"/>
+  <widgets xsi:type="model:Icon" id="27" x="409" y="182" measuredWidth="16" measuredHeight="16" foreground="#fff" icon="assets/ic-domain (small)"/>
+  <widgets xsi:type="model:Icon" id="28" x="400" y="215" measuredWidth="32" measuredHeight="32" foreground="#e74c3c" icon="assets/ic-favorite (large)"/>
+  <widgets xsi:type="model:Icon" id="29" x="408" y="222" measuredWidth="16" measuredHeight="16" foreground="#fff" icon="assets/ic-people (small)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

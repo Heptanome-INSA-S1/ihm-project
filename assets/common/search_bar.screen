@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Panel" id="1" x="288" y="192" width="414" height="49" measuredWidth="414" measuredHeight="49" background="#25272a" foreground="#25272a" border="none"/>
-  <widgets xsi:type="model:SearchField" id="2" x="359" y="202" width="281" text="Search" measuredWidth="281" measuredHeight="31" borderColor="#25272a">
+  <widgets xsi:type="model:SearchField" id="2" x="359" y="202" width="330" text="Search" measuredWidth="330" measuredHeight="31" borderColor="#25272a">
     <font size="17px"/>
   </widgets>
-  <widgets xsi:type="model:Icon" id="3" x="657" y="201" measuredWidth="32" measuredHeight="32" foreground="#fff" icon="assets/ic-add (large)"/>
   <widgets xsi:type="model:Icon" id="5" x="327" y="204" measuredWidth="24" measuredHeight="24" foreground="#fff" icon="assets/ic-local-activity (medium)"/>
   <widgets xsi:type="model:Label" id="6" x="298" y="202" text="150" measuredWidth="30" measuredHeight="28" foreground="#fff">
     <font size="15px"/>

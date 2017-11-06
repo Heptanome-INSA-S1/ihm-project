@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
-  <widgets xsi:type="model:Master" id="1" x="160" y="32" measuredWidth="456" measuredHeight="872" dimmed="true">
-    <screen xsi:type="model:Screen" href="../phone.screen#/"/>
-    <overrides>
-      <widgets ref="1/7">
-        <attributes key="background" value="#c6c8c9"/>
-      </widgets>
-    </overrides>
-  </widgets>
   <widgets xsi:type="model:Panel" id="21" x="180" y="276" width="413" height="466" measuredWidth="413" measuredHeight="466" background="#f0f0f1" border="none"/>
   <widgets xsi:type="model:Master" id="4" x="179" y="132" measuredWidth="414" measuredHeight="49" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/common/search_bar.screen#/"/>
@@ -68,8 +60,16 @@
   <widgets xsi:type="model:Master" id="19" x="179" y="180" measuredWidth="414" measuredHeight="97" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/home/filter_top.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="6" x="179" y="744" measuredWidth="414" measuredHeight="49" dimmed="true">
+  <widgets xsi:type="model:Master" id="6" x="179" y="729" measuredWidth="414" measuredHeight="73" dimmed="true">
     <screen xsi:type="model:Screen" href="../assets/common/bottom_bar.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="1" x="160" y="32" measuredWidth="456" measuredHeight="872" dimmed="true">
+    <screen xsi:type="model:Screen" href="../phone.screen#/"/>
+    <overrides>
+      <widgets ref="1/7">
+        <attributes key="background" value="#c6c8c9"/>
+      </widgets>
+    </overrides>
   </widgets>
   <hRuler/>
   <vRuler/>

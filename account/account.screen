@@ -1,51 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="28" x="197" y="165" width="410" height="609" measuredWidth="410" measuredHeight="609" background="#f0f0f1" border="none"/>
+  <widgets xsi:type="model:Master" id="23" x="197" y="196" measuredWidth="410" measuredHeight="100" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/account/profile_overview.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="-180" y="128" width="410"/>
+      <widgets ref="5" x="-30" y="144" width="30"/>
+      <widgets ref="6" x="-30" y="183" width="30"/>
+      <widgets ref="7" x="-94" y="142" width="63"/>
+      <widgets ref="9" x="-94" y="181" width="63"/>
+      <widgets ref="12" x="41" y="142" width="39"/>
+      <widgets ref="14" x="41" y="181" width="39"/>
+      <widgets ref="16" x="129" y="181" width="39"/>
+      <widgets ref="18" x="129" y="142" width="39"/>
+      <widgets ref="19" x="-172" y="133" width="87"/>
+      <widgets ref="20" x="21" y="135"/>
+      <widgets ref="21" x="81" y="144" width="30"/>
+      <widgets ref="11" x="89" y="151" width="14"/>
+      <widgets ref="24" x="81" y="183" width="30"/>
+      <widgets ref="25" x="88" y="190" width="14"/>
+      <widgets ref="26" x="169" y="144" width="30"/>
+      <widgets ref="27" x="178" y="150" width="14"/>
+      <widgets ref="28" x="169" y="183" width="30"/>
+      <widgets ref="29" x="177" y="190" width="14"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="24" x="197" y="117" width="411" measuredWidth="411" measuredHeight="49" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/common/search_bar.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="85" y="172" width="411"/>
+      <widgets ref="2" x="155" y="182" width="327"/>
+      <widgets ref="5" x="123" y="184" width="23"/>
+      <widgets ref="6" x="94" y="182" width="29"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="25" x="197" y="306" measuredWidth="410" measuredHeight="321" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/account/profile_form.screen#/"/>
+    <overrides>
+      <widgets ref="1" width="410"/>
+      <widgets ref="2" x="151" width="290"/>
+      <widgets ref="2/54" width="93"/>
+      <widgets ref="3" width="63"/>
+      <widgets ref="5" width="250"/>
+      <widgets ref="8" x="153" width="247"/>
+      <widgets ref="8/59" width="247"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="27" x="444" y="640" measuredWidth="150" measuredHeight="36">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Controls.screen#Button%20Raised"/>
+    <overrides>
+      <widgets ref="15" width="150" text="Modify informations">
+        <attributes key="background" value="#f0f0f1"/>
+        <attributes key="border" value="true"/>
+        <attributes key="shapeType" value="rectangle-round"/>
+        <attributes key="foreground" value="#25272a"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="29" x="197" y="713" measuredWidth="410" measuredHeight="73" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/common/bottom_bar.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="86" y="191" width="410"/>
+      <widgets ref="2" x="109" y="200" width="30"/>
+      <widgets ref="3" x="196" y="200" width="30"/>
+      <widgets ref="4" x="355" y="200" width="30"/>
+      <widgets ref="5" x="442" y="200" width="30"/>
+      <widgets ref="7" x="418" y="191" width="76"/>
+      <widgets ref="8" x="369" y="198" width="22"/>
+      <widgets ref="10" x="254" y="180" width="69"/>
+      <widgets ref="10/12" width="69"/>
+      <widgets ref="12" x="254" y="240" width="69"/>
+      <widgets ref="10/13" x="-192" y="103"/>
+    </overrides>
+  </widgets>
   <widgets xsi:type="model:Master" id="1" x="176" y="16" measuredWidth="456" measuredHeight="872" dimmed="true">
     <screen xsi:type="model:Screen" href="../phone.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="2" x="313" y="166" width="75" height="75" measuredWidth="75" measuredHeight="75" style="round">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Icon" id="3" x="320" y="184" width="61" height="59" measuredWidth="61" measuredHeight="59" icon="user (xlarge)"/>
-  <widgets xsi:type="model:Label" id="4" x="408" y="166" width="65" text="145" measuredWidth="65" measuredHeight="36">
-    <font size="20px"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="5" x="408" y="201" width="65" text="3,5 / 5" measuredWidth="65" measuredHeight="36">
-    <font size="20px"/>
-  </widgets>
-  <widgets xsi:type="model:Icon" id="6" x="480" y="168" measuredWidth="32" measuredHeight="32" icon="assets/ic-local-play (large)"/>
-  <widgets xsi:type="model:Icon" id="7" x="480" y="203" measuredWidth="32" measuredHeight="32" icon="heart (large)"/>
-  <widgets xsi:type="model:Label" id="8" x="216" y="344" width="121" text="Name:" measuredWidth="121" measuredHeight="36">
-    <font size="20px"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="9" x="216" y="384" width="129" text="First name: " measuredWidth="129" measuredHeight="36">
-    <font size="20px"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="10" x="216" y="434" width="65" text="Email :" measuredWidth="65" measuredHeight="36">
-    <font size="20px"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="11" x="216" y="488" width="115" text="Address :" measuredWidth="115" measuredHeight="36">
-    <font size="20px"/>
-  </widgets>
-  <widgets xsi:type="model:TextField" id="13" x="330" y="347" width="255" text="De Nice" measuredWidth="255" measuredHeight="29" state="disabled">
-    <font size="15px"/>
-  </widgets>
-  <widgets xsi:type="model:TextField" id="14" x="330" y="387" width="255" text="Brice" measuredWidth="255" measuredHeight="29" state="disabled">
-    <font size="15px"/>
-  </widgets>
-  <widgets xsi:type="model:TextField" id="15" x="330" y="442" width="255" text="brice.de-nice@gmail.com" measuredWidth="255" measuredHeight="29" state="disabled">
-    <font size="15px"/>
-  </widgets>
-  <widgets xsi:type="model:TextArea" id="17" x="216" y="528" width="369" height="97" text="1, Rue des Lilas&#xD;&#xA;69006 Lyon" measuredWidth="369" measuredHeight="97" state="disabled">
-    <font size="15px"/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="18" x="320" y="688" width="153" height="49" text="Modify" measuredWidth="153" measuredHeight="49">
-    <font size="15px"/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="19" x="216" y="640" width="177" height="33" text="Service Proposals" measuredWidth="177" measuredHeight="33" textAlignment="Left">
-    <font size="15px"/>
-  </widgets>
-  <widgets xsi:type="model:Hotspot" id="20" x="216" y="640" width="177" height="33" measuredWidth="177" measuredHeight="33" link="../service_proposal/filter_menu.screen"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
