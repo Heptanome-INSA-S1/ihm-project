@@ -75,6 +75,7 @@
       <widgets ref="10/13" x="-177" y="70"/>
     </overrides>
   </widgets>
+  <widgets xsi:type="model:Hotspot" id="31" x="597" y="175" width="9" height="545" measuredWidth="9" measuredHeight="545" link="account_propositions.screen"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

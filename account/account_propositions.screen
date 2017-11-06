@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="176" y="16" measuredWidth="456" measuredHeight="872" dimmed="true">
+    <screen xsi:type="model:Screen" href="../phone.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="4" x="195" y="166" width="412" height="559" measuredWidth="412" measuredHeight="559" background="#f0f0f1" border="none"/>
+  <widgets xsi:type="model:Master" id="3" x="197" y="118" measuredWidth="410" measuredHeight="49" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/common/search_bar.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="68" y="144" width="410"/>
+      <widgets ref="2" x="137" y="154" width="326"/>
+      <widgets ref="5" x="105" y="156" width="22"/>
+      <widgets ref="6" x="76" y="154" width="28"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="5" x="194" y="184" measuredWidth="413" measuredHeight="169" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/account/profile_demand.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="6" x="194" y="359" measuredWidth="413" measuredHeight="169" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/account/profile_demand.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="7" x="194" y="534" measuredWidth="413" measuredHeight="169" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/account/profile_demand.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="196" y="699" measuredWidth="411" measuredHeight="74" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/common/bottom_bar.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="158" y="295" width="411"/>
+      <widgets ref="2" x="182" y="304" width="31"/>
+      <widgets ref="3" x="269" y="304" width="31"/>
+      <widgets ref="4" x="428" y="304" width="31"/>
+      <widgets ref="5" x="515" y="304" width="31"/>
+      <widgets ref="7" x="491" y="295" width="77"/>
+      <widgets ref="8" x="442" y="302" width="23"/>
+      <widgets ref="10" x="327" y="270" width="70"/>
+      <widgets ref="10/12" width="70"/>
+      <widgets ref="10/13" x="-120" y="207"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="9" x="599" y="176" width="9" height="545" measuredWidth="9" measuredHeight="545" link="account.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

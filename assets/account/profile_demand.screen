@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1" x="256" y="168" width="413" height="169" measuredWidth="413" measuredHeight="169" border="none"/>
+  <widgets xsi:type="model:Icon" id="2" x="266" y="178" measuredWidth="32" measuredHeight="32" icon="info (large)"/>
+  <widgets xsi:type="model:Text" id="5" x="266" y="217" width="327" height="64" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." measuredWidth="327" measuredHeight="64">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="12" x="640" y="257" measuredWidth="24" measuredHeight="24" foreground="#25272a" icon="assets/ic-local-play (medium)"/>
+  <widgets xsi:type="model:Label" id="13" x="601" y="256" text="Price" measuredWidth="38" measuredHeight="28" layoutParams="anchor-right|anchor-middle" textAlignment="Right">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="15" x="269" y="287" width="388" measuredWidth="388" measuredHeight="6" foreground="#c6c8c9"/>
+  <widgets xsi:type="model:Master" id="16" x="312" y="177" measuredWidth="44" measuredHeight="33">
+    <screen xsi:type="model:WidgetGroup" href="../Android5/Typography.screen#Text%20Medium"/>
+    <overrides>
+      <widgets ref="4" text="Title">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="17" x="287" y="298" measuredWidth="69" measuredHeight="31">
+    <screen xsi:type="model:WidgetGroup" href="../Android5/Controls.screen#Button%20Flat"/>
+    <overrides>
+      <widgets ref="17" text="Modifier">
+        <font size="17px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="18" x="560" y="298" measuredWidth="85" measuredHeight="31">
+    <screen xsi:type="model:WidgetGroup" href="../Android5/Controls.screen#Button%20Flat"/>
+    <overrides>
+      <widgets ref="17" text="Supprimer">
+        <attributes key="foreground" value="#e74c3c"/>
+        <font size="17px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

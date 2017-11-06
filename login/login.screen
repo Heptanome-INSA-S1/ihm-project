@@ -3,28 +3,67 @@
   <widgets xsi:type="model:Master" id="1" x="208" y="16" measuredWidth="456" measuredHeight="872" dimmed="true">
     <screen xsi:type="model:Screen" href="../phone.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="2" x="343" y="208" measuredWidth="185" measuredHeight="39">
+  <widgets xsi:type="model:Panel" id="11" x="229" y="117" width="412" height="657" measuredWidth="412" measuredHeight="657" background="#175a8b" border="none"/>
+  <widgets xsi:type="model:Master" id="2" x="321" y="168" measuredWidth="218" measuredHeight="62">
     <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Typography.screen#Header"/>
     <overrides>
-      <widgets ref="15" text="Authentification">
-        <font size="24px"/>
+      <widgets ref="15" text="INSA Share">
+        <attributes key="foreground" value="#fff"/>
+        <attributes key="textAlignment" value="Center"/>
+        <font size="40px"/>
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:TextField" id="5" x="257" y="416" width="345" text="°°°°°°°°°°°" measuredWidth="345" measuredHeight="39">
-    <font size="24px"/>
+  <widgets xsi:type="model:Master" id="12" x="265" y="312" measuredWidth="286" measuredHeight="86">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Controls.screen#Text%20Field%20with%20Label"/>
+    <overrides>
+      <widgets ref="55" text="Email">
+        <attributes key="foreground" value="#fff"/>
+        <font size="24px"/>
+      </widgets>
+      <widgets ref="54" text="brice.denice@surf.fr">
+        <attributes key="borderColor" value="#f0f0f1"/>
+        <font size="32px"/>
+      </widgets>
+    </overrides>
   </widgets>
-  <widgets xsi:type="model:TextField" id="6" x="257" y="312" width="345" text="E-mail" measuredWidth="345" measuredHeight="39">
-    <font size="24px"/>
+  <widgets xsi:type="model:Master" id="13" x="265" y="424" measuredWidth="214" measuredHeight="86">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Controls.screen#Text%20Field%20with%20Label"/>
+    <overrides>
+      <widgets ref="55" text="Mot de passe">
+        <attributes key="foreground" value="#fff"/>
+        <font size="24px"/>
+      </widgets>
+      <widgets ref="54" text="* * * * * * * * * *">
+        <attributes key="borderColor" value="#f0f0f1"/>
+        <font size="32px"/>
+      </widgets>
+    </overrides>
   </widgets>
-  <widgets xsi:type="model:Button" id="7" x="387" y="560" text="Sign-in" measuredWidth="94" measuredHeight="41">
-    <font size="24px"/>
+  <widgets xsi:type="model:Master" id="14" x="478" y="646" measuredWidth="112" measuredHeight="36" link="../home/home.screen">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Controls.screen#Button%20Raised"/>
+    <overrides>
+      <widgets ref="15" text="Sign-in">
+        <attributes key="shapeType" value="rectangle-rounded"/>
+        <attributes key="background" value="#175a8b"/>
+        <attributes key="foreground" value="#f0f0f1"/>
+        <attributes key="border" value="true"/>
+        <font size="20px"/>
+      </widgets>
+    </overrides>
   </widgets>
-  <widgets xsi:type="model:Button" id="8" x="391" y="712" text="Sign-out" measuredWidth="92" measuredHeight="35">
-    <font size="18px"/>
+  <widgets xsi:type="model:Master" id="15" x="298" y="646" measuredWidth="112" measuredHeight="36" link="signup.screen">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Controls.screen#Button%20Raised"/>
+    <overrides>
+      <widgets ref="15" text="Sign-out">
+        <attributes key="shapeType" value="rectangle-rounded"/>
+        <attributes key="background" value="#175a8b"/>
+        <attributes key="foreground" value="#f0f0f1"/>
+        <attributes key="border" value="true"/>
+        <font size="20px"/>
+      </widgets>
+    </overrides>
   </widgets>
-  <widgets xsi:type="model:Hotspot" id="9" x="389" y="560" width="94" height="41" measuredWidth="94" measuredHeight="41" link="../home/home.screen"/>
-  <widgets xsi:type="model:Hotspot" id="10" x="392" y="712" width="90" height="35" measuredWidth="90" measuredHeight="35" link="signup.screen"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

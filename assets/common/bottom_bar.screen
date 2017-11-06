@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Panel" id="1" x="288" y="192" width="414" height="49" measuredWidth="414" measuredHeight="49" background="#25272a" foreground="#25272a" border="none"/>
-  <widgets xsi:type="model:Icon" id="2" x="313" y="201" measuredWidth="32" measuredHeight="32" foreground="#fff" icon="assets/ic-list (large)"/>
-  <widgets xsi:type="model:Icon" id="3" x="400" y="201" measuredWidth="32" measuredHeight="32" foreground="#fff" icon="assets/ic-today (large)"/>
-  <widgets xsi:type="model:Icon" id="4" x="560" y="201" measuredWidth="32" measuredHeight="32" foreground="#fff" icon="assets/ic-room-service (large)"/>
-  <widgets xsi:type="model:Icon" id="5" x="648" y="201" measuredWidth="32" measuredHeight="32" foreground="#fff" icon="assets/ic-account-box (large)"/>
-  <widgets xsi:type="model:Hotspot" id="7" x="624" y="192" width="78" height="49" measuredWidth="78" measuredHeight="49" link="../../account/account.screen"/>
+  <widgets xsi:type="model:Icon" id="2" x="313" y="201" measuredWidth="32" measuredHeight="32" foreground="#fff" icon="assets/ic-list (large)" link="../../home/home.screen"/>
+  <widgets xsi:type="model:Icon" id="3" x="400" y="201" measuredWidth="32" measuredHeight="32" foreground="#fff" icon="assets/ic-today (large)" link="../../history/history.screen"/>
+  <widgets xsi:type="model:Icon" id="4" x="560" y="201" measuredWidth="32" measuredHeight="32" foreground="#fff" icon="assets/ic-room-service (large)" link="../../notifications/notifications.screen"/>
+  <widgets xsi:type="model:Icon" id="5" x="648" y="201" measuredWidth="32" measuredHeight="32" foreground="#fff" icon="assets/ic-account-box (large)" link="../../account/account.screen"/>
   <widgets xsi:type="model:Icon" id="8" x="575" y="199" measuredWidth="24" measuredHeight="24" foreground="#e74c3c" icon="bullet (medium)"/>
   <widgets xsi:type="model:Master" id="10" x="459" y="167" measuredWidth="71" measuredHeight="72" link="../../home/add_request.screen">
     <screen xsi:type="model:WidgetGroup" href="../Android5/Controls.screen#Button%20Floating"/>
