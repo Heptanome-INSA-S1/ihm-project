@@ -9,7 +9,7 @@
       <widgets ref="25" width="414"/>
       <widgets ref="26" text="Request"/>
       <widgets ref="29" width="412"/>
-      <widgets ref="30" text="Contact">
+      <widgets ref="30" x="171" y="166" text="Contact">
         <items ref="@items.1" text="Contact"/>
         <itemChanges xsi:type="o:Delete" ref="@items.0"/>
       </widgets>
