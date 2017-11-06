@@ -23,7 +23,7 @@
         <itemChanges xsi:type="o:Delete" ref="@items.1"/>
         <itemChanges xsi:type="o:Delete" ref="@items.0"/>
       </widgets>
-      <widgets ref="31" y="120" width="382" height="25" text="Damien aimerait participer à votre covoiturage."/>
+      <widgets ref="31" y="120" width="382" height="25" text="Damien would like to be in part of your carsharing."/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="3" x="304" y="324" measuredWidth="52" measuredHeight="23">

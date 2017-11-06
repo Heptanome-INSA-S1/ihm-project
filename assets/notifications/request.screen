@@ -13,7 +13,7 @@
         <items ref="@items.1" text="Contact"/>
         <itemChanges xsi:type="o:Delete" ref="@items.0"/>
       </widgets>
-      <widgets ref="31" y="120" width="382" height="25" text="Marion a accepté votre demande de matériel."/>
+      <widgets ref="31" y="120" width="382" height="25" text="Marion accepted your request for tool sharing."/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="2" x="518" y="269" measuredWidth="138" measuredHeight="32">
