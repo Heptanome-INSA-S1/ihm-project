@@ -3,7 +3,7 @@
   <widgets xsi:type="model:Master" id="1" x="101" measuredWidth="456" measuredHeight="872" dimmed="true">
     <screen xsi:type="model:Screen" href="home.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="16" x="143" y="559" height="90" measuredWidth="369" measuredHeight="90">
+  <widgets xsi:type="model:Master" id="16" x="144" y="541" measuredWidth="369" measuredHeight="90">
     <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Controls.screen#Button%20Raised"/>
     <overrides>
       <widgets ref="15" width="369" height="90" noText="true">
@@ -13,7 +13,7 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="19" x="143" y="571" measuredWidth="369" measuredHeight="31">
+  <widgets xsi:type="model:Master" id="19" x="144" y="553" measuredWidth="369" measuredHeight="31">
     <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Controls.screen#Button%20Flat"/>
     <overrides>
       <widgets ref="17" width="369" text="REQUEST A SERVICE">
@@ -22,7 +22,7 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="20" x="143" y="608" width="369" measuredWidth="369" measuredHeight="31">
+  <widgets xsi:type="model:Master" id="20" x="144" y="590" measuredWidth="369" measuredHeight="31">
     <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Controls.screen#Button%20Flat"/>
     <overrides>
       <widgets ref="17" width="369" text="PROPOSE A SERVICE">
@@ -31,7 +31,7 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="22" x="142" y="658" height="43" measuredWidth="369" measuredHeight="43">
+  <widgets xsi:type="model:Master" id="22" x="143" y="640" measuredWidth="369" measuredHeight="43">
     <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Controls.screen#Button%20Raised"/>
     <overrides>
       <widgets ref="15" width="369" height="43" noText="true">
@@ -41,7 +41,7 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="21" x="144" y="664" width="368" measuredWidth="368" measuredHeight="31">
+  <widgets xsi:type="model:Master" id="21" x="145" y="646" measuredWidth="368" measuredHeight="31">
     <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Controls.screen#Button%20Flat"/>
     <overrides>
       <widgets ref="17" width="368" text="CANCEL">
@@ -51,7 +51,7 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="23" x="144" y="598" width="367" measuredWidth="367" measuredHeight="6">
+  <widgets xsi:type="model:Master" id="23" x="145" y="580" measuredWidth="367" measuredHeight="6">
     <screen xsi:type="model:WidgetGroup" href="../assets/Android5/Controls.screen#Divider"/>
     <overrides>
       <widgets ref="41" width="367">
@@ -59,9 +59,9 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Hotspot" id="11" x="145" y="560" width="364" height="39" measuredWidth="364" measuredHeight="39" link="../service_request/filter_menu.screen"/>
-  <widgets xsi:type="model:Hotspot" id="10" x="145" y="604" width="364" height="36" measuredWidth="364" measuredHeight="36" link="../service_proposal/filter_menu.screen"/>
-  <widgets xsi:type="model:Hotspot" id="24" x="142" y="658" width="372" height="43" measuredWidth="372" measuredHeight="43" link="home.screen"/>
+  <widgets xsi:type="model:Hotspot" id="11" x="146" y="542" width="364" height="39" measuredWidth="364" measuredHeight="39" link="../service_request/filter_menu.screen"/>
+  <widgets xsi:type="model:Hotspot" id="10" x="146" y="586" width="364" height="36" measuredWidth="364" measuredHeight="36" link="../service_proposal/filter_menu.screen"/>
+  <widgets xsi:type="model:Hotspot" id="24" x="143" y="640" width="372" height="43" measuredWidth="372" measuredHeight="43" link="home.screen"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
