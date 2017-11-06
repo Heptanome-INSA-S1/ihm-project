@@ -4,9 +4,9 @@
     <screen xsi:type="model:WidgetGroup" href="../Android5/Content.screen#Card%20Medium"/>
     <overrides>
       <widgetChanges xsi:type="o:Insert" newIndex="5">
-        <object xsi:type="model:ButtonBar" id="5" x="311" y="168" text="Refuser" layoutParams="anchor-left|anchor-bottom" background="#f00" skin="../Android5/_buttons.svg">
+        <object xsi:type="model:ButtonBar" id="5" x="311" y="168" text="Refuse" layoutParams="anchor-left|anchor-bottom" background="#f00" skin="../Android5/_buttons.svg">
           <font size="14px" bold="false"/>
-          <items text="Refuser"/>
+          <items text="Refuse"/>
         </object>
       </widgetChanges>
       <widgetChanges xsi:type="o:Insert" newIndex="5">
@@ -15,10 +15,10 @@
       <widgets ref="25" width="414"/>
       <widgets ref="26" text="Proposal"/>
       <widgets ref="29" width="412"/>
-      <widgets ref="30" text="Accepter">
+      <widgets ref="30" text="Accept">
         <attributes key="background" value="#3d85c6"/>
         <itemChanges xsi:type="o:Insert" newIndex="2">
-          <object xsi:type="model:Item" text="Accepter"/>
+          <object xsi:type="model:Item" text="Accept"/>
         </itemChanges>
         <itemChanges xsi:type="o:Delete" ref="@items.1"/>
         <itemChanges xsi:type="o:Delete" ref="@items.0"/>
